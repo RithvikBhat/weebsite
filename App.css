@@ -1,0 +1,198 @@
+@import url("https://fonts.googleapis.com/css2?family=Slackey&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.authBox {
+  height: 470px;
+  width: 750px;
+  overflow: hidden;
+  margin: 80px auto 30px;
+  border-radius: 30px;
+  box-shadow: 10px 10px 70px -15px;
+}
+
+.rightBox {
+  width: 300px;
+  height: 480px;
+  float: right;
+  position: relative;
+  display: block;
+}
+
+.imageAuth {
+  background-image: url("login-image.jpg");
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.imageText {
+  font-size: 28px;
+  position: absolute;
+  color: #ffffff;
+}
+
+.imageText bold {
+  font-weight: bold;
+}
+
+.imageText style1 {
+  top: 200px;
+  right: 20px;
+}
+
+.imageText style2 {
+  top: 250px;
+  right: 20px;
+}
+
+.leftBox {
+  width: 400px;
+  height: 480px;
+  float: left;
+
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+
+.box {
+  width: 310px;
+  height: 415px;
+  margin: 32px auto;
+}
+
+.logo {
+  font-family: "Slackey", cursive;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: #030303;
+}
+
+.pageswitch {
+  margin-top: -1.5rem;
+  margin-left: 9rem;
+}
+
+.pageswitch .loginswitch,
+.pageswitch .signupswitch {
+  padding-right: 2rem;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 23px;
+  color: grey;
+}
+
+.pageswitch .loginswitch:hover,
+.pageswitch .signupswitch:hover {
+  color: #00acee;
+  text-decoration-line: underline;
+}
+
+.titleAuth {
+  font-size: 32px;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  color: #00acee;
+}
+
+.inputSBox {
+  width: 300px;
+  height: 42px;
+  border: 1px solid grey;
+  border-radius: 30px;
+  margin-bottom: 20px;
+}
+
+.inputS {
+  width: 100%;
+  height: 100%;
+  font-size: 14px;
+  color: #37353f;
+  border-radius: 30px;
+  text-align: center;
+  border: 0;
+  outline: none;
+}
+
+.contentBox {
+  overflow: hidden;
+  height: 42px;
+  margin-bottom: 30px;
+}
+
+.checkboxBox {
+  padding-left: 10px;
+  overflow: hidden;
+  float: left;
+}
+
+.checkboxLabel {
+  position: absolute;
+  width: 131px;
+  height: 23px;
+  padding-left: 10px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 25px;
+  color: #00c6ff;
+}
+
+.text1 {
+  float: right;
+  padding-right: 1rem;
+  font-size: 15px;
+  font-style: italic;
+  color: #00c6ff;
+  cursor: pointer;
+  line-height: 25px;
+}
+
+.text1:hover {
+  text-decoration: underline;
+}
+
+.btnAuth {
+  width: 300px;
+  height: 47px;
+  left: 180px;
+  top: 763px;
+  color: #ffffff;
+  background: linear-gradient(92.49deg, #00c6ff 5.93%, #0072ff 119.41%);
+  text-align: center;
+  line-height: 47px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .authBox {
+    width: 90%;
+  }
+
+  .rightBox {
+    display: none;
+  }
+
+  .leftBox {
+    width: 90%;
+    float: initial;
+    border: 0;
+  }
+}
